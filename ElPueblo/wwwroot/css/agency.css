@@ -174,13 +174,13 @@ img::-moz-selection {
 }
 
 header.masthead {
-  text-align: center;
-  color: white;
-  background-image: url("../assets/img/home/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+    text-align: center;
+    color: white;
+    background-image: url('../assets/img/home/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
 
 header.masthead .intro-text {
@@ -229,6 +229,7 @@ header.masthead .intro-text .intro-heading {
   margin: 15px 0;
   text-transform: none;
 }
+
 
 #portfolio .portfolio-item {
   right: 0;
@@ -591,10 +592,12 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/home/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
+    background-color: #212529;
+    background-image: url("../assets/img/home/contanos.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: left;
+    background-size:cover;
 }
 
 section#contact .section-heading {
@@ -688,4 +691,10 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+#services {
+    background-color: grey;
+}
+#comments{
+    background-color:grey;
 }
