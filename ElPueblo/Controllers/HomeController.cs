@@ -13,8 +13,7 @@ namespace ElPueblo.Controllers
         public IActionResult Index()
         {
             return View();
-        }
-
+        } 
      
     }
 }
